@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+  user-select: none;
+  cursor: url('../img/pogchamp2.png'),auto;
+  
+}
+
+
+body {
+  margin: 0;
+  background-color: #9c4fff;
+  cursor: url('../img/pogchamp2.png'),auto;
+}
+
+#wrapp {
+  background-image: url("../img/twlogo.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+  height: 100px;
+  
+}
+
+#pic {
+  width: 500px;
+  max-width: 200px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  cursor: url('../img/pogchamp2.png'),auto;
+  padding-top: 2em;
+  transition-duration: 0.5s;
+}
+
+#doubleButt,
+#autoButt {
+  display: block;
+  margin: auto;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  cursor: url('../img/pogchamp2.png'),auto;
+  transition-duration: 0.5s;
+  font-size: 20px;
+}
+
+#pic:hover,
+#doubleButt:hover,
+#autoButt:hover {
+  transform: scale(1.2);
+}
+
+button {
+  padding: 0.75em;
+  width: auto;
+  font-weight: bolder;
+  
+}
+
+#number{
+text-align: center;
+font-size: larger;
+font-weight: bold;
+
+}
+
+
